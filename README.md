@@ -56,7 +56,7 @@ end
 ```
 ![matrix of plots](figures/figure1.jpg)
 
-#### method one
+#### Method One
 ```matlab
 % version: R2016a
 % Subplot to show plot types
@@ -83,8 +83,9 @@ title('stem')
 xlabel('Year')
 ylabel('Population')
 ```
-#### method two
+#### Method Two
 ```matlab
+% version: R2016a
 % Demonstrates evaluating plot type names in order to use the plot functions and put the names in titles
 year = 2007:2011;
 pop = [0.9 1.4 1.7 1.3 1.8];
@@ -98,6 +99,16 @@ ylabel('Population')
 end
 ```
 ![Subplot to display bar, barh, area, and stem plots](figures/figure2.jpg)
+
+```matlab
+% version: R2016a
+% Data from a matrix in a bar chart
+groupages = [8 19 43 25; 35 44 30 45];
+bar(groupages);
+xlabel('Group');
+ylabel('Ages');
+```
+![Data from a matrix in a bar chart](figures/figure3.jpg)
 
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
