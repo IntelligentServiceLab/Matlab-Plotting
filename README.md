@@ -133,6 +133,20 @@ title('Quiz Grades');
 ```
 ![Histogram of data](figures/figure5.jpg)
 
+```matlab
+% version: R2016a
+% pie(vec): Pie chart showing percentages
+pie([11 14 8 3 1]);
+```
+![Pie chart showing percentages](figures/figure6.jpg)
+
+```matlab
+% version: R2016a
+% pie(vec): Pie chart with labels from a cell array
+pie([11 14 8 3 1], {'A','B','C','D','F'});
+```
+![Pie chart with labels from a cell array](figures/figure7.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
