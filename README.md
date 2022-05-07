@@ -158,6 +158,24 @@ comet(x,y);
 ```
 ![animating a plot of sin(x)](figures/figure8.jpg)
 
+
+```matlab
+% version: R2016a
+% Shows a movie of the sin function
+% The frames are captured in a loop using the built-in function getframe, and are stored in a matrix.
+clear
+x = -2*pi : 1/5: 2*pi;
+y = sin(x);
+n = length(x);
+for i = 1:n
+    plot(x(i),y(i),'r*')
+    axis([min(x)-1 max(x)+1  min(y)-1 max(y)+1])
+    M(i) = getframe;
+end
+movie(M)
+```
+![Shows a movie of the sin function](figures/figure9.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
