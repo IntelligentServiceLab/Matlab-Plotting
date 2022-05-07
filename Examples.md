@@ -69,3 +69,47 @@ ylim([0,90])
 grid on
 ```
 ![matrix of plots](examples/example2.jpg)
+
+
+### 【Examples 1】
+```matlab
+% version: R2021b
+subplot(1,3,1)
+a=[0,0.5,1,1.5,2]
+b=[2.2115861,2.15729257154,2.10998199,2.04998199,2.00998199]
+
+bar(b)
+set(gca,"xticklabel",{'0','0.5','1','1.5','2'})
+ylim([2,2.25])
+txt=xlabel('(a) DCG Value vs. $H_{0}$')
+set(txt,'interpreter','latex');
+xlabel("(a) DCG Value vs. $H_{0}$",FontName='times new roman',FontSize=20)
+ylabel("DCG Value",FontName='Times',FontSize=20)
+grid on
+
+subplot(1,3,2)
+a=[0,0.5,1,1.5,2]
+
+b=[0.531518,0.54817539,0.567141,0.577141,0.5998745]
+bar(b,'red')
+ylim([0.5,0.6])
+txt=xlabel('(b) Diversity Value vs. $H_{0}$')
+set(txt,'interpreter','latex');
+set(gca,"xticklabel",{'0','0.5','1','1.5','2'})
+xlabel("(b) Diversity Value vs. $H_{0}$",FontName='times new roman',FontSize=20)
+ylabel("Diversity Value",FontName='Times',FontSize=20)
+grid on
+
+subplot(1,3,3)
+a=[0,0.5,1,1.5,2]
+y=[0.14279999999999995, 0.139457389999999926, 0.118422999999999976, 0.128422999999999967, 0.131156499999999903]
+bar(y,'black')
+ylim([0.1,0.15])
+txt=xlabel('(c) RMSDE Value vs. $H_{0}$')
+set(txt,'interpreter','latex');
+set(gca,"xticklabel",{'0','0.5','1','1.5','2'})
+xlabel("(c) RMSDE Value vs. $H_{0}$",FontName='Times New Roman',FontSize=20)
+ylabel("RMSDE Value",FontName='Times',FontSize=20)
+grid on
+```
+![matrix of plots](examples/example3.jpg)
