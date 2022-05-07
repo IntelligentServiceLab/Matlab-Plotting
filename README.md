@@ -147,6 +147,17 @@ pie([11 14 8 3 1], {'A','B','C','D','F'});
 ```
 ![Pie chart with labels from a cell array](figures/figure7.jpg)
 
+### Animation
+```matlab
+% version: R2016a
+% animating a plot of sin(x) 
+x = -2*pi : 1/100 : 2*pi;
+y = sin(x);
+comet(x,y);
+% The end result looks similar to the result of plot(x,y)
+```
+![animating a plot of sin(x)](figures/figure8.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
