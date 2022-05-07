@@ -41,7 +41,7 @@
 
 ## Advanced Plotting TEchniques
 ### Plot Fucntions
-![matrix of plots](figures/figure1.emf)
+![matrix of plots](figures/figure1.jpg)
 
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
