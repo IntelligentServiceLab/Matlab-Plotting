@@ -35,6 +35,8 @@
   </tr>
 </table>
 
+[Matlab Plot Examples for Reference](Examples.md)
+
 ## Programming Style Guidelines
 + Always label plots
 + Take care to choose the type of plot to highlight the most relevant information
