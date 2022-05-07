@@ -56,6 +56,34 @@ end
 ```
 ![matrix of plots](figures/figure1.jpg)
 
+```matlab
+% version: R2016a
+% Subplot to show plot types
+year = 2007:2011;
+pop = [0.9 1.4 1.7 1.3 1.8];
+subplot(2,2,1)
+bar(year,pop)
+title('bar')
+xlabel('Year')
+ylabel('Population')
+subplot(2,2,2)
+barh(year,pop)
+title('barh')
+xlabel('Year')
+ylabel('Population')
+subplot(2,2,3)
+area(year,pop)
+title('area')
+xlabel('Year')
+ylabel('Population')
+subplot(2,2,4)
+stem(year,pop)
+title('stem')
+xlabel('Year')
+ylabel('Population')
+```
+![Subplot to display bar, barh, area, and stem plots](figures/figure2.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
