@@ -131,7 +131,7 @@ title('Quiz Grades');
 % >> c = hist(quizzes)
 % c = 1 0 0 0 1 1 1 3 1 4
 ```
-![Data from a matrix in a bar chart](figures/figure5.jpg)
+![Histogram of data](figures/figure5.jpg)
 
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
