@@ -176,6 +176,22 @@ movie(M)
 ```
 ![Shows a movie of the sin function](figures/figure9.jpg)
 
+### Three-Dimensional Plots
+```matlab
+% version: R2016a
+% 3D plot with a grid
+x = 1:5;
+y = [0 -2 4 11 3];
+z = 2:2:10;
+plot3(x,y,z,'k*');
+grid;
+xlabel('x');
+ylabel('y');
+zlabel('z');
+title('3D Plot');
+```
+![3D plot with a grid](figures/figure8.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
