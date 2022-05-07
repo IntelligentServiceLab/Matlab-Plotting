@@ -1,6 +1,39 @@
 ## MATLAB Functions and Commands
-<div align=center><img width="513" height="240" src="figures/plot_functions.jpg"/></div>
-
+<table style="width:100%">
+  <tr>
+    <td>subplot</td>
+    <td>plot3</td>
+    <td>sphere</td>
+    <td>barh</td>
+    <td>bar3</td>
+    <td>cylinder</td>
+    <td>area</td>
+    <td>bar3h</td>
+    <td>colorbar</td>
+  </tr>
+  <tr>
+    <td>stem</td>
+    <td>pie3</td>
+    <td>line</td>
+    <td>hist</td>
+    <td>comet3</td>
+    <td>rectangle</td>
+    <td>pie</td>
+    <td>stem3</td>
+    <td>text</td>
+  </tr>
+  <tr>
+    <td>comet</td>
+    <td>spiral</td>
+    <td>get set</td>
+    <td>movie</td>
+    <td>mesh</td>
+    <td>patch</td>
+    <td>getframe</td>
+    <td>surf</td>
+    <td>image</td>
+  </tr>
+</table>
 
 ## Programming Style Guidelines
 + Always label plots
