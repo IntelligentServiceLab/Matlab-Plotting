@@ -110,6 +110,16 @@ ylabel('Ages');
 ```
 ![Data from a matrix in a bar chart](figures/figure3.jpg)
 
+```matlab
+% version: R2016a
+% Data from a matrix in a bar chart
+groupages = [8 19 43 25; 35 44 30 45];
+bar(groupages,'stack');
+xlabel('Group');
+ylabel('Ages');
+```
+![Data from a matrix in a bar chart](figures/figure4.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
