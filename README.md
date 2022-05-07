@@ -1,3 +1,2 @@
-## MATLAB Functions and Commands
-|subplot | plot 3| sphere |barh|bar3|cylinder|
-|subplot | plot 3| sphere |barh|bar3|cylinder|
+## Procedure of DiQoS
+<div align=center><img width="513" height="240" src="figures/plot_functions.png"/></div>
