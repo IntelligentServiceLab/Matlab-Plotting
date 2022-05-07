@@ -39,6 +39,10 @@
 + Always label plots
 + Take care to choose the type of plot to highlight the most relevant information
 
+## Advanced Plotting TEchniques
+### Plot Fucntions
+![matrix of plots](figures/figure1.emf)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
