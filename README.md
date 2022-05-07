@@ -120,6 +120,19 @@ ylabel('Ages');
 ```
 ![Data from a matrix in a bar chart](figures/figure4.jpg)
 
+```matlab
+% version: R2016a
+% Histogram of data
+quizzes = [10 8 5 10 10 6 9 7 8 10 1 8];
+hist(quizzes);
+xlabel('Grade');
+ylabel('#');
+title('Quiz Grades');
+% >> c = hist(quizzes)
+% c = 1 0 0 0 1 1 1 3 1 4
+```
+![Data from a matrix in a bar chart](figures/figure5.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
