@@ -23,7 +23,7 @@ legend('RMSE','MAE')
 ```
 ![matrix of plots](examples/example1.jpg)
 
-
+----------------------
 ### 【Examples 2】
 ```matlab
 % version: R2021b
@@ -70,7 +70,7 @@ grid on
 ```
 ![matrix of plots](examples/example2.jpg)
 
-
+----------------------
 ### 【Examples 3】
 ```matlab
 % version: R2021b
@@ -155,6 +155,7 @@ set(gca, 'XTicklabel',{'3','4','5','6','7'});
 ```
 ![matrix of plots](examples/example3.jpg)
 
+----------------------
 ### 【Examples 4】
 ```matlab
 % version: R2016a, R2021b
@@ -238,6 +239,7 @@ set(gca, 'XTicklabel',{'3','4','5','6','7'});
 ```
 ![matrix of plots](examples/example4.jpg)
 
+----------------------
 ### 【Examples 5】
 ```matlab
 % version: R2021b
