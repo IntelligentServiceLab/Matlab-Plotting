@@ -1,6 +1,6 @@
 ## MATLAB Plot Examples
 
-### 【Examples 1】
+### 【Example 1】
 ```matlab
 % version: R2021b
 colororder({'0 0 1','1 0 0'})
@@ -24,7 +24,7 @@ legend('RMSE','MAE')
 ![matrix of plots](examples/example1.jpg)
 
 ----------------------
-### 【Examples 2】
+### 【Example 2】
 ```matlab
 % version: R2021b
 % note: Numbers are added by inserting TEXT manually
@@ -71,7 +71,7 @@ grid on
 ![matrix of plots](examples/example2.jpg)
 
 ----------------------
-### 【Examples 3】
+### 【Example 3】
 ```matlab
 % version: R2021b
 % DCG vs. n
@@ -156,7 +156,7 @@ set(gca, 'XTicklabel',{'3','4','5','6','7'});
 ![matrix of plots](examples/example3.jpg)
 
 ----------------------
-### 【Examples 4】
+### 【Example 4】
 ```matlab
 % version: R2016a, R2021b
 clf;clear
@@ -240,7 +240,7 @@ set(gca, 'XTicklabel',{'3','4','5','6','7'});
 ![matrix of plots](examples/example4.jpg)
 
 ----------------------
-### 【Examples 5】
+### 【Example 5】
 ```matlab
 % version: R2016a
 subplot(1,3,1)
