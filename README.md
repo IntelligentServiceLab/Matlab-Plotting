@@ -227,6 +227,14 @@ zlabel('z');
 ```
 ![3D plot of a spiral matrix](figures/figure12.jpg)
 
+```matlab
+% version: R2016a
+% 3D pie chart
+ pie3([3 10 5 2]);
+```
+![3D pie chart](figures/figure13.jpg)
+
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
