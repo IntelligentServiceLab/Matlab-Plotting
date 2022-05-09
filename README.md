@@ -192,7 +192,21 @@ ylabel('y');
 zlabel('z');
 title('3D Plot');
 ```
-![3D plot with a grid](figures/figure8.jpg)
+![3D plot with a grid](figures/figure10.jpg)
+
+```matlab
+% version: R2016a
+% 3D bar chart
+y = 1:6;
+z = [33 11 5 9 22 30];
+bar3(y,z);
+xlabel('x');
+ylabel('y');
+zlabel('z');
+title('3D Bar');
+```
+![3D bar chart](figures/figure8.jpg)
+
 
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
