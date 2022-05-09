@@ -215,6 +215,18 @@ title('3D Bar');
 ![3D bar chart](figures/figure11.jpg)
 
 
+```matlab
+% version: R2016a
+% 3D plot of a spiral matrix
+mat = spiral(5);
+bar3(mat);
+title('3D Spiral');
+xlabel('x');
+ylabel('y');
+zlabel('z');
+```
+![3D plot of a spiral matrix](figures/figure12.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
