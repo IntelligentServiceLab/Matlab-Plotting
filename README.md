@@ -205,7 +205,7 @@ ylabel('y');
 zlabel('z');
 title('3D Bar');
 ```
-![3D bar chart](figures/figure8.jpg)
+![3D bar chart](figures/figure11.jpg)
 
 
 ## Common Pitfalls
