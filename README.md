@@ -234,6 +234,13 @@ zlabel('z');
 ```
 ![3D pie chart](figures/figure13.jpg)
 
+```matlab
+% version: R2016a
+% an animated plot
+t = 0:0.001:12*pi;
+comet3(cos(t), sin(t), t);
+```
+![an animated plot](figures/figure14.jpg)
 
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
