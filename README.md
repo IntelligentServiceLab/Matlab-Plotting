@@ -252,6 +252,16 @@ title('Mesh of sphere');
 ```
 ![Mesh plot of sphere](figures/figure15.jpg)
 
+
+```matlab
+% version: R2016a
+% Surf plot of sphere
+[x,y,z] = sphere(15);
+surf(x,y,z);
+title('Surf of sphere');
+colorbar;
+```
+![Surf plot of sphere](figures/figure16.jpg)
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
