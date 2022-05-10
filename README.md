@@ -242,6 +242,16 @@ comet3(cos(t), sin(t), t);
 ```
 ![an animated plot](figures/figure14.jpg)
 
+```matlab
+% version: R2016a
+% Mesh plot of sphere
+[x,y,z] = sphere(15);
+size(x); % ans = 16 16
+mesh(x,y,z);
+title('Mesh of sphere');
+```
+![Mesh plot of sphere](figures/figure15.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
