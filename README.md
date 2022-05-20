@@ -279,6 +279,17 @@ end
 ```
 ![Subplot to show varying bar widths](figures/figure17.jpg)
 
+```matlab
+% version: R2016a
+% Largest Fraction of Grades
+gradenums = [11 14 8 3 1];
+which = gradenums == max(gradenums);
+% which = 0 1 0 0 0
+pie(gradenums,which,{'A','B','C','D','F'});
+title('Largest Fraction of Grades');
+```
+![Largest Fraction of Grades](figures/figure18.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
