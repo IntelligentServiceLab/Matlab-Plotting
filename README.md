@@ -290,6 +290,36 @@ title('Largest Fraction of Grades');
 ```
 ![Largest Fraction of Grades](figures/figure18.jpg)
 
+
+```matlab
+% version: R2016a
+% plotywithcell.m
+% Format: plotxywithcell(x,fn handle, cell array)
+function plotxywithcell(x, fnhan, rca)
+lenrca = length(rca);
+y = fnhan(x);
+for i = 1:lenrca
+	subplot(1,lenrca,i)
+	funh = str2func(rca {i});
+	funh(x,y)
+	title(upper(rca {i}))
+	xlabel('x')
+	ylabel(func2str(fnhan))
+end
+end
+```
+
+```matlab
+% version: R2016a
+% call plotywithcell.m
+anfn = @ (x) x .^ 3;
+x = 1:2:9;
+rca = {'bar', 'area', 'plot'};
+plotxywithcell(x, anfn, rca)
+plotxywithcell(x, anfn, rca)
+```
+![Subplot showing different file types with their names as titles](figures/figure19.jpg)
+
 ## Common Pitfalls
 + Forgetting that subplot numbers the plots rowwise rather than columnwise
 + Not realizing that the subplot function just creates a matrix within the Figure Window. Each part of this matrix must then be filled with a plot, using any type of plot function
