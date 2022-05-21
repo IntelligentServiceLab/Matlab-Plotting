@@ -37,6 +37,8 @@
 
 [Matlab Plot Examples for Reference](Examples.md)
 
+Reference：Stormy Attaway. Matlab: A Practical Introduction to Programming and Problem Solving [M]. Butterworth-Heinemann, 2013.
+
 ## Matlab Software Download
 - [R2009a](https://pan.baidu.com/s/1LfePFjCCpGZw6r0Pw4HR3g)
 - [R2016a](https://pan.baidu.com/s/1bbcMHcFj_uMkEgJ8hclT9g ) 
