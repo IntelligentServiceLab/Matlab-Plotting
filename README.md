@@ -52,7 +52,7 @@ fetch code: kang
 + Always label plots
 + Take care to choose the type of plot to highlight the most relevant information
 
-## Advanced Plotting TEchniques
+## Advanced Plotting Techniques
 ### Plot Fucntions
 ```matlab
 % version: R2016a
