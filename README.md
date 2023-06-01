@@ -39,6 +39,8 @@
 
 [Stormy Attaway. **Matlab: A Practical Introduction to Programming and Problem Solving** [M]. Butterworth-Heinemann, 2013.](https://pan.baidu.com/s/1XqzsOz60NUSiN92BgYm9CQ?pwd=kang )
 
+**Note**: Save \*.emf file for WORD template and save \*.eps file for LATEX template.
+
 ## Matlab Software Download
 - [R2009a](https://pan.baidu.com/s/1LfePFjCCpGZw6r0Pw4HR3g)
 - [R2016a](https://pan.baidu.com/s/1bbcMHcFj_uMkEgJ8hclT9g ) 
